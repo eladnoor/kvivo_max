@@ -1,0 +1,60 @@
+Reaction ID,Reaction Name,Reaction Index
+ACGS,N-acetylglutamate synthase,510
+ACONTa,"aconitase (half-reaction A, Citrate hydro-lyase)",536
+ACONTb,"aconitase (half-reaction B, Isocitrate hydro-lyase)",537
+ADK1,adenylate kinase,559
+ADNK1,adenosine kinase,564
+ADSL1r,adenylsuccinate lyase,576
+ADSL2r,adenylosuccinate lyase,577
+ADSS,adenylosuccinate synthase,578
+ASAD,aspartate-semialdehyde dehydrogenase,714
+ASNS2,asparagine synthetase,721
+ASPK,aspartate kinase,730
+CTPS2,CTP synthase (glutamine),888
+CYTK1,cytidylate kinase (CMP),923
+DAPDC,diaminopimelate decarboxylase,943
+DDPA,3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase,969
+DHAD1,"dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylbutanoate)",976
+DHAD2,"Dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate)",977
+DHQS,3-dehydroquinate synthase,1007
+ENO,enolase,1102
+FUM,fumarase,1245
+G6PDH2r,glucose 6-phosphate dehydrogenase,1283
+GALUi,UTP-glucose-1-phosphate uridylyltransferase (irreversible),1307
+GF6PTA,glutamine-fructose-6-phosphate transaminase,1326
+GLNS,glutamine synthetase,1359
+GLUPRT,glutamine phosphoribosyldiphosphate amidotransferase,1371
+GLYK,glycerol kinase,1408
+GND,phosphogluconate dehydrogenase,1423
+HSDy,homoserine dehydrogenase (NADPH),1527
+HSK,homoserine kinase,1528
+HSST,homoserine O-succinyltransferase,1529
+ICDHyr,isocitrate dehydrogenase (NADP),1548
+ILETA,isoleucine transaminase,1561
+IPPMIa,3-isopropylmalate dehydratase,1582
+IPPMIb,2-isopropylmalate hydratase,1583
+IPPS,2-isopropylmalate synthase,1584
+KARA1,"ketol-acid reductoisomerase (2,3-dihydroxy-3-methylbutanoate)",1589
+KDOPP,3-deoxy-manno-octulosonate-8-phosphatase,1594
+KDOPS,3-deoxy -D-manno-octulosonic -acid 8-phosphate synthase,1595
+LEUTAi,leucine transaminase (irreversible),1624
+NDPK1,nucleoside-diphosphate kinase (ATP:GDP),1877
+NDPK2,nucleoside-diphosphate kinase (ATP:UDP),1878
+NDPK3,nucleoside-diphosphate kinase (ATP:CDP),1879
+PFK,phosphofructokinase,2064
+PGL,6-phosphogluconolactonase,2079
+PHETA1,phenylalanine transaminase,2113
+PRAIS,phosphoribosylaminoimidazole synthase,2202
+PRASCSi,phosphoribosylaminoimidazolesuccinocarboxamide synthase,2205
+PRFGS,phosphoribosylformylglycinamidine synthase,2207
+PRPPS,phosphoribosylpyrophosphate synthetase,2217
+PSERT,phosphoserine transaminase,2228
+SERAT,serine O-acetyltransferase,2341
+SHKK,shikimate kinase,2356
+SUCOAS,succinyl-CoA synthetase (ADP-forming),2388
+THDPS,tetrahydrodipicolinate succinylase,2419
+THRD_L,L-threonine deaminase,2430
+THRS,threonine synthase,2432
+UAGCVT,UDP-N-acetylglucosamine 1-carboxyvinyltransferase,2500
+UMPK,UMP kinase,2531
+VALTA,valine transaminase,2553

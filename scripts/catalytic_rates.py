@@ -12,8 +12,8 @@ class rates(object):
 
         # Modify model
         convert_to_irreversible(self.model)  
-        self.rxns = dict([(r.id, r) for r in self.model.reactions])
-        self.genes = dict([(g.id, g) for g in self.model.genes])
+        self.rxns = {r.id : r for r in self.model.reactions}
+        self.genes = {g.id : g for g in self.model.genes}
         add_to_model(self.model)
         self.include_specific_isozmyes()
 
@@ -42,7 +42,7 @@ class rates(object):
         self.p_per_as = (self.kcat['polypeptides per complex'] 
                                     / self.kcat['catalytic sites per complex'])
         self.kmax = self.get_kmax(self.kapp)
-        self.SAmax = self.get_maximum_specific_activity(self.SA)             
+        self.SAmax = self.get_maximum_specific_activity(self.SA)
 
     def include_specific_isozmyes(self):
         '''
@@ -288,7 +288,7 @@ class rates(object):
     def _perform_pFBA(self, model, cs='glc', gr=1, ur=10):
 
         from cobra.flux_analysis.parsimonious import optimize_minimal_flux
-        rxns = dict([(r.id, r) for r in model.reactions])
+        rxns = {r.id : r for r in model.reactions}
         rxns['EX_glc_e'].lower_bound = 0 # uptake of carbon source reaction is initialized    
         try:
             rxns['EX_' + cs + '_e'].lower_bound = -ur # redefine sole carbon source uptake reaction in mmol/gr/h
